@@ -38,5 +38,12 @@ public class Persona {
     public String inicial() {
         return this.nombre.substring(0, 1) + ".";
     }
-
+    
+    public boolean validaDni(String dni){
+    	return false;
+    }
+    
+    public String iniciales(){
+    	return null;
+    }
 }

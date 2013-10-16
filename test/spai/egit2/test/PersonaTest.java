@@ -46,5 +46,14 @@ public class PersonaTest {
     public void testNombreCompleto() {
         assertEquals("Ana Vega", this.persona.nombreCompleto());
     }
-
+    
+    @Test
+    public void testValidaDni() {
+    	assertTrue(this.persona.validaDni("12345678Z"));
+    }
+    
+    @Test
+    public void testIniciales() {
+        assertEquals("AV.", this.persona.iniciales());
+    }
 }
