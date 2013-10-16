@@ -22,6 +22,14 @@ public class NumeroEntero {
     public void incrementar() {
         this.setValor(this.valor + 1);
     }
+    
+    public int incrementar(int valor) {
+        return valor -1;
+    }
+    
+    public int multiplicar(int valor) {
+        return valor -1;
+    }
 
     public void doblar() {
         this.setValor(this.valor * 2);
