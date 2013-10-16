@@ -67,12 +67,19 @@ public class Fraccion {
         return (double) numerador / denominador;
     }
     
-    public boolean isPropia(){
-    	if(this.getNumerador() < this.getDenominador()){
+    public boolean isImpropia(){
+    	if(this.getNumerador() > this.getDenominador()){
     		return true;
     	}
     	else{
     		return false;
     	}
     }
+ 
+    //de prueba, borrar
+    public boolean isPropia(){
+    	return true;
+}
+   //de prueba, borrar 
+    public Fraccion multiplicar(Fraccion fraccion){ return fraccion;}
 }
