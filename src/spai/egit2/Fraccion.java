@@ -66,5 +66,13 @@ public class Fraccion {
     public double decimal() {
         return (double) numerador / denominador;
     }
-
+    
+    public boolean isPropia(){
+    	if(this.getNumerador() < this.getDenominador()){
+    		return true;
+    	}
+    	else{
+    		return false;
+    	}
+    }
 }
