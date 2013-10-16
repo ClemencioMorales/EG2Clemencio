@@ -38,5 +38,9 @@ public class Persona {
     public String inicial() {
         return this.nombre.substring(0, 1) + ".";
     }
+    
+    public String iniciales(){
+    	return this.getNombre().substring(0, 1) + this.getApellido().substring(0, 1) + ".";
+    }
 
 }
