@@ -74,4 +74,11 @@ public class Fraccion {
 			return false;
 		}
 	}
+
+	public Fraccion multiplicar(Fraccion otra) {
+		Fraccion result = new Fraccion();
+		result.setNumerador((this.getNumerador() * otra.getNumerador()));
+		result.setDenominador((this.getDenominador() * otra.getDenominador()));
+		return result;
+	}
 }
