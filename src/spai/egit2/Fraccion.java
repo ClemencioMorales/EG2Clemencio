@@ -80,8 +80,10 @@ public class Fraccion {
 		return true;
 	}
 
-	// de prueba, borrar
-	public Fraccion multiplicar(Fraccion fraccion) {
-		return fraccion;
+	public Fraccion multiplicar(Fraccion otra) {
+		Fraccion result = new Fraccion();
+		result.setNumerador((this.getNumerador() * otra.getNumerador()));
+		result.setDenominador((this.getDenominador() * otra.getDenominador()));
+		return result;
 	}
 }
