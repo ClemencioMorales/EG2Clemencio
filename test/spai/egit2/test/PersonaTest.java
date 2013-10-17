@@ -49,7 +49,7 @@ public class PersonaTest {
     
     @Test
     public void testValidaDni() {
-    	assertTrue(this.persona.validaDni("12345678Z"));
+    	assertTrue(Persona.validaDni("12345678Z"));
     }
     
     @Test

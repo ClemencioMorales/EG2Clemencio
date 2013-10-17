@@ -39,7 +39,7 @@ public class Persona {
         return this.nombre.substring(0, 1) + ".";
     }
     
-    public boolean validaDni(String dni){
+    public static boolean validaDni(String dni){
     	return false;
     }
     
