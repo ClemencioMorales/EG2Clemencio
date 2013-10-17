@@ -75,9 +75,12 @@ public class Fraccion {
 		}
 	}
 
-	// de prueba, borrar
 	public boolean isPropia() {
-		return true;
+		if (this.getNumerador() < this.getDenominador()) {
+			return true;
+		} else {
+			return false;
+		}
 	}
 
 	public Fraccion multiplicar(Fraccion otra) {
